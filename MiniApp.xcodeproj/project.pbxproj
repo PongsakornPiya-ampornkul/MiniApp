@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		9AA329F62711CDB00095B129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA329F42711CDB00095B129 /* Main.storyboard */; };
 		9AA329F82711CDB20095B129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA329F72711CDB20095B129 /* Assets.xcassets */; };
 		9AA329FB2711CDB20095B129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA329F92711CDB20095B129 /* LaunchScreen.storyboard */; };
+		9ACE3A8F2711D7DF00457ADA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE3A8E2711D7DF00457ADA /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9AA329F72711CDB20095B129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AA329FA2711CDB20095B129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AA329FC2711CDB20095B129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ACE3A8E2711D7DF00457ADA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AA9BE4DF1773BA6D9FD51770 /* Pods-MiniApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniApp.debug.xcconfig"; path = "Target Support Files/Pods-MiniApp/Pods-MiniApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D3932F11F45BD8B49F2D5056 /* Pods-MiniApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniApp.release.xcconfig"; path = "Target Support Files/Pods-MiniApp/Pods-MiniApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,7 +50,6 @@
 				AA9BE4DF1773BA6D9FD51770 /* Pods-MiniApp.debug.xcconfig */,
 				D3932F11F45BD8B49F2D5056 /* Pods-MiniApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,6 +82,9 @@
 		9AA329ED2711CDB00095B129 /* MiniApp */ = {
 			isa = PBXGroup;
 			children = (
+				9ACE3A8D2711D7AF00457ADA /* Constants */,
+				9ACE3A912711D83D00457ADA /* Font */,
+				9ACE3A902711D82500457ADA /* Scene */,
 				9AA329EE2711CDB00095B129 /* AppDelegate.swift */,
 				9AA329F02711CDB00095B129 /* SceneDelegate.swift */,
 				9AA329F22711CDB00095B129 /* ViewController.swift */,
@@ -90,6 +94,28 @@
 				9AA329FC2711CDB20095B129 /* Info.plist */,
 			);
 			path = MiniApp;
+			sourceTree = "<group>";
+		};
+		9ACE3A8D2711D7AF00457ADA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9ACE3A8E2711D7DF00457ADA /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9ACE3A902711D82500457ADA /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		9ACE3A912711D83D00457ADA /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +235,7 @@
 				9AA329F32711CDB00095B129 /* ViewController.swift in Sources */,
 				9AA329EF2711CDB00095B129 /* AppDelegate.swift in Sources */,
 				9AA329F12711CDB00095B129 /* SceneDelegate.swift in Sources */,
+				9ACE3A8F2711D7DF00457ADA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
